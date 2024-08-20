@@ -1,6 +1,6 @@
 // Write a java program to take a range from the user and print all the buzz nummber within the range.
 import java.util.Scanner;
-class Buzz
+public class Buzz1
 {
     public static int n;
     static void setData(int l)
@@ -28,6 +28,7 @@ public static void main(String arr[])
         setData(i);
         if(chackNum())
         System.out.print(i);
+        sc.close();
     }
 }
 }

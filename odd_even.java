@@ -19,5 +19,6 @@ class check
         System.out.print("Enter a value:-");
         c.a=sc.nextInt();
         c.checkodd();
+        sc.close();
     }
 }
