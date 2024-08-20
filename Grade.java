@@ -1,3 +1,12 @@
+// Write a java program to take the marks percentage of a Student ass input and determine 
+// the grade according to the following condition.
+    // percentage>=90:Grade A
+    // percentage>=80:Grade B
+    // percentage>=70:Grade C
+    // percentage>=60:Grade D
+    // percentage>=40:Grade E
+    // percentage<=40:Grade F
+
 import java.util.Scanner;
 class Percentage
 {
