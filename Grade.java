@@ -10,7 +10,7 @@
 import java.util.Scanner;
 class Percentage
 {
-    private int maeks;
+    private int marks;
     void setData(int m)
     {
         marks=m;
@@ -30,11 +30,11 @@ class Percentage
         else
         System.out.println("Grade F");
     }
-    public void main(String arr[])
+    public static void main(String arr[])
     {
-        Scanner sc=new Scanner(System in);
+        Scanner sc=new Scanner(System.in);
         Percentage p=new Percentage();
-        System.out.print("Enter a marks");
+        System.out.print("Enter a marks:-");
         int m=sc.nextInt();
         p.setData(m);
         p.Grade();
