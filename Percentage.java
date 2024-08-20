@@ -8,7 +8,7 @@
     // percentage<=40:Grade F
 
 import java.util.Scanner;
-class Percentage
+public class Percentage
 {
     private int marks;
     void setData(int m)
@@ -38,5 +38,6 @@ class Percentage
         int m=sc.nextInt();
         p.setData(m);
         p.Grade();
+        sc.close();
     }
 }

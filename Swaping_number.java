@@ -26,6 +26,7 @@ class swap
            System.out.println("Value after swaping:");
            System.out.println("First value:"+s1.a);
            System.out.println("seconf value:"+s2.a);
+        se.close();
     }     
         
 }

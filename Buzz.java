@@ -3,7 +3,7 @@
 // NOTE:- A Buzz number is a  number that is either divisible by 7 or the last digit is 7.
 
 import java.util.Scanner;
-class Buzz
+public class Buzz
 {
     public static int n;
     static void setData(int i)
@@ -32,6 +32,7 @@ class Buzz
         else
         {
             System.out.println(R+"is not a BUZZ NO.");
+            sc.close();
         }
     }
 }

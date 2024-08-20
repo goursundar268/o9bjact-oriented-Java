@@ -2,7 +2,7 @@
 // Display prpper manu the user should be able to input two value and the operator tooperate on the values.
 
 import java.util.Scanner;
-class calculater
+public class calculater
 {
     private int a,b;
     void setData(int c,int d)
@@ -57,6 +57,7 @@ class calculater
             case'/':c.Div();
             break;
             default: System.out.println("You are wrong choice!!");
+        
         }
     }
 }
