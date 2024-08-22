@@ -57,6 +57,7 @@ public class calculater
             case'/':c.Div();
             break;
             default: System.out.println("You are wrong choice!!");
+            sc.close();
         
         }
     }
