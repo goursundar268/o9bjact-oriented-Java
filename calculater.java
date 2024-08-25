@@ -12,20 +12,20 @@ public class calculater
     }
     void Add()
     {
-         System.out.println("\n The Addition is:-"+(a+b));
+         System.out.println("\n The Addition value is:-"+(a+b));
     }
     void Sub()
     {
-        System.out.println("\n The Subtraction is:-"+(a-b));
+        System.out.println("\n The Subtraction value is:-"+(a-b));
         
     }
     void Mul()
     {
-        System.out.println("\n The Multiplication is:-"+(a*b));
+        System.out.println("\n The Multiplication value is:-"+(a*b));
     }
     void Div()
     {
-        System.out.println("\n The Divison is:-"+(a/b));
+        System.out.println("\n The Divison value is:-"+(a/b));
     }
 
     public static void main(String arr[])
