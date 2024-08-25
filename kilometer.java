@@ -1,6 +1,6 @@
 // Write a java program to take one user input from the user and whether it is even or odd.
 import java.util.Scanner;
-public class check
+public class kilometer
 {
     int option;
     double result;
@@ -23,7 +23,7 @@ public class check
     }
     public static void main(String arr[])
     {
-        check c=new check();
+      kilometer c=new kilometer();
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter a option'{1 enter kilometer equel to mile and 2 enter mile equel to kilometer}':-");
         

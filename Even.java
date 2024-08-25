@@ -1,6 +1,6 @@
 // Write a java program to take one user input from the user and whether it is even or odd.
 import java.util.Scanner;
-public class Checkk
+public class Even
 {
     int a;
     void checkodd()
@@ -14,7 +14,7 @@ public class Checkk
     }
     public static void main(String arr[])
     {
-        Checkk c=new Checkk();
+        Even c=new Even();
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter a value:-");
         c.a=sc.nextInt();
