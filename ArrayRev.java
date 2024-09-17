@@ -20,6 +20,7 @@ class Done
             ArrayRev r=new ArrayRev(a);
             r.reverse();
             r.display();
+            sc.close();
         }
     }
 
