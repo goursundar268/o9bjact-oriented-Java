@@ -10,7 +10,7 @@
 // Score <40=>F
 import java.util.Scanner;
 
-class Test
+public class Testing
 {
     public static void main(String arr[])
     {
